@@ -1,0 +1,93 @@
+@media (max-width:1200px){ 
+    #navbar{
+
+        #basic-nav-dropdown{
+            display: none;
+        }
+
+        #book{
+            display: none;
+        }
+
+        #link{
+            display: none;
+        }
+
+        #open{
+            display: block;
+        }
+    }
+
+    #accommodation{
+
+        .card-group{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1rem;
+        }
+
+        #card{
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    #services{
+        display: none;
+    }
+}
+
+@media (max-width:1000px){
+    #accommodation{
+        margin-bottom: 100px;
+
+        .card-group{
+            grid-template-columns: repeat(1, 1fr);
+            margin-left: 50px;
+        }
+
+        #card{
+            width: 90%;
+            padding: 10px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    #overview{
+        h4{
+            margin-bottom: 15px;
+        }
+    
+        .container .content{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+        }
+    }
+
+    
+    footer .links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:750px){
+    #showcase{
+        
+        .carousel{
+
+            Button{
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+}
